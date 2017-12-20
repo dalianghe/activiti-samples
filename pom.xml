@@ -26,8 +26,8 @@
 		<shiro-spring-version>1.4.0</shiro-spring-version>
 		<shiro-ehcache-version>1.4.0</shiro-ehcache-version>
 		<druid-version>1.1.3</druid-version>
-		<activiti.version>6.0.0</activiti.version>
-		<h2.database>1.4.183</h2.database>
+		<activiti-version>6.0.0</activiti-version>
+		<h2-database>1.4.183</h2-database>
 	</properties>
 
 	<modules>
@@ -65,12 +65,12 @@
 			<dependency>
 				<groupId>org.activiti</groupId>
 				<artifactId>activiti-spring-boot-starter-basic</artifactId>
-				<version>${activiti.version}</version>
+				<version>${activiti-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.h2database</groupId>
 				<artifactId>h2</artifactId>
-				<version>${h2.database}</version>
+				<version>${h2-database}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
